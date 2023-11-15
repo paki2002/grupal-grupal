@@ -28,3 +28,19 @@ p.signup-prompt{
   color:white;
   text-decoration: none;
 }
+
+.signup-google {
+  text-align: center;
+  padding-top: 20px;
+}
+.signup-google a {
+  color:white;
+  text-decoration-line: none;
+  font-family: inherit;
+  padding-top: 20px;
+  padding-left: 3px;
+}
+.signup-google img {
+  width: 30px;
+  height: 20px;
+}

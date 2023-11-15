@@ -76,7 +76,11 @@ if (isset($_SESSION['email'])) {
               <input type="password" required class="form-component form-text" name="password" placeholder="Contraseña" />
               <input type="submit" class="form-component form-btn login-btn" value="Iniciar Sesion" />
             </form>
-
+            <form class="signup-google">
+              <img src="assets/ui.svg">
+              <?php require ('autentificacion.php')?>
+              <a class="signup-google"href="<?php echo $client->createAuthUrl() ?>">Iniciar sesión con Google</a>
+            </form>
             <p class="signup-prompt">¿aún no tienes una cuenta?
             <a href="signup.php">Registrarse</a>
             </p>
@@ -85,6 +89,7 @@ if (isset($_SESSION['email'])) {
       </div>
     </div>
   </main>
+  <script src="validar.js"></script>
 </body>
 
 </html>
