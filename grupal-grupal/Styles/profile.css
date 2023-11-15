@@ -1,0 +1,125 @@
+html,
+body {
+  height: 100%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  padding-top: 16px;
+  height: 92%;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #494949;
+}
+
+.navbar {
+  padding: 10px 16px;
+  border-bottom: 1px solid #dadce0;
+}
+
+.profile {
+  padding: 40px 90px;
+  max-width: 590px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  height: 100%;
+}
+
+.profile > section {
+  margin-bottom: 64px;
+}
+
+.details {
+  text-align: center;
+}
+
+.details > img {
+  height: 164px;
+  margin-bottom: 12px;
+}
+
+.details > h2 {
+  font-size: 2rem;
+  margin-bottom: 4px;
+}
+
+.reset,
+.reset > form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.reset > form > input[type="password"],
+.reset > form > button[type="submit"] {
+  text-align: center;
+  font-size: 0.875rem;
+  border-radius: 12px;
+  display: block;
+  width: 100%;
+  height: 42px;
+  font-weight: 600;
+
+  border: none;
+  transition: 100ms ease-out;
+}
+
+.reset > form > input[type="password"] {
+  border: 1px solid #ccc;
+  color: #aaa;
+}
+
+.reset > form > button[type="submit"] {
+  color: #ffffff;
+  background-color: hsl(0, 0%, 9%);
+}
+
+.reset > form > button[type="submit"]:hover {
+  background-color: hsl(0, 0%, 16%);
+}
+
+.alert-box {
+  text-align: center;
+}
+
+.delete {
+  display: flex;
+}
+
+.delete > h2 {
+  margin-right: 24px;
+}
+
+.delete > form > button {
+  color: #ffffff;
+  background-color: hsl(0, 100%, 63%);
+  padding: 4px 16px;
+  border: none;
+  border-radius: 32px;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.delete > form > button:hover {
+  background-color: hsl(0, 100%, 56%);
+}
+
+@media (max-width: 582px) {
+  .profile {
+    padding: 40px 7%;
+    border-radius: 0;
+  }
+
+  main {
+    padding-top: 0;
+  }
+}

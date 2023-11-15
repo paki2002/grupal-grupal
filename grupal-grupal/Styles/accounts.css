@@ -1,0 +1,131 @@
+html,
+body,
+main,
+.main-container,
+.main-row {
+  height: 100%;
+}
+
+body {
+  text-align: center;
+}
+
+.blur {
+  position: absolute;
+  z-index: -2;
+  backdrop-filter: blur(4rem);
+}
+
+.container-fluid,
+.row,
+.col,
+.col-lg-5,
+.col-lg-7,
+.form-col {
+  margin: 0;
+  padding: 0;
+ background:black;
+}
+
+  .title-col {
+    height: 30px;
+    display: flex;
+  }
+
+  .form-col {
+    min-height: 70%;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.2);
+    margin-left: 320px;
+  }
+
+
+@media (min-width: 992px) {
+  .form-col {
+    height: 100%;
+  }
+}
+
+.taskly-title {
+  cursor: pointer;
+}
+
+.taskly-title:hover {
+  text-decoration: underline;
+}
+
+.form-col {
+  background: #fff;
+  padding: 2rem;
+}
+
+.form-wrapper {
+  margin: auto;
+  padding-bottom: 2rem;
+}
+
+.form-wrapper h2 {
+  margin-bottom: 8px;
+  color: #fff;
+}
+
+.form-wrapper p {
+  margin-bottom: 36px;
+  color:white;
+  font-size: 0.75rem;
+}
+
+.form-component {
+  display: block;
+  height: 60px;
+  width: 100%;
+  margin-bottom: 18px;
+  text-align: center;
+  border-radius: 12px;
+}
+
+.form-text {
+  border: 1px solid #ccc;
+  transition: 100ms ease-out;
+}
+
+.form-text::placeholder {
+  color: #303030;
+}
+
+.form-btn {
+  border: none;
+  font-weight: 600;
+  color: #fff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-btn:active {
+  box-shadow: none;
+}
+
+.signup-btn {
+  background-color: #ff0000;
+}
+
+.signup-btn a {
+  text-decoration: none;
+  color: #fff;
+  
+}
+
+.signup-btn:hover {
+  background-color: #303030;
+}
+
+.signup-btn:active {
+  background: #000;
+}
+
+/* Alert box */
+
+.alert-box {
+  margin-top: 28px;
+  margin-bottom: 64px;
+}

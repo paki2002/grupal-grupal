@@ -1,0 +1,64 @@
+body {
+  background-image: url(../assets/sign-up-abstract.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+@media (min-width: 992px) {
+  body {
+    background-image: url(../assets/sign-up-abstract.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+}
+
+.title-col {
+  padding: 3rem 2rem;
+  justify-content: end;
+}
+
+.title-col h1 {
+  color: #ff9494;
+  text-align: end;
+}
+
+.title-col p {
+  font-family: "Outfit", sans-serif;
+  color: #fff;
+  text-align: end;
+}
+
+@media (min-width: 992px) {
+  .title-col p,
+  .title-col h1 {
+    text-align: center;
+  }
+}
+
+.title-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 575px) {
+  .title-wrapper {
+    width: 100%;
+  }
+}
+
+p.login-prompt {
+  margin-top: 54px;
+}
+
+.login-prompt a {
+  color: white;
+  font-weight: 600;
+}
+
+.login-prompt a:hover {
+  color:white;
+  text-decoration: none;
+}
